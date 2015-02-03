@@ -1,0 +1,123 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+body{
+	background: url(../images/bg.jpg) no-repeat #E7E7E7;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.content {
+	width: 57%;
+	margin: 0 auto;
+	border-top: 1px solid rgba(226, 226, 226, 0.69);
+	border-right: 1px solid rgba(226, 226, 226, 0.22);
+	border-bottom: 1px solid rgba(51, 51, 51, 0.26);
+	border-left: 1px solid rgba(151, 151, 151, 0.28);
+	-webkit-background-origin: border-box;
+	-moz-background-origin: border;
+	background-origin: border-box;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, .15)), to(rgba(0, 0, 0, .25))), -webkit-gradient(linear, left top, right bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(0.5, rgba(255, 255, 255, .15)), color-stop(0.501, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 0)));
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), -moz-linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+	background: linear-gradient(top, rgba(255, 255, 255, .15), rgba(0, 0, 0, .25)), linear-gradient(left top, rgba(255, 255, 255, 0), rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0));
+	padding: 4em;
+	margin-top: 8em;
+}
+.content{
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+}
+.content-grid h1{
+	color:#FFF;
+	font-size: 5em;
+	font-weight: bold
+}
+.content-grid h2{
+	color: #FFF;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 0 auto;
+}
+/*---timer----*/
+/* ---------- TIMER ---------- */
+ul#countdown{text-align:center;padding-top: 15px;}
+ul#countdown span {
+	color: #FFF;
+	font-size: 2.8em;
+	font-weight: bold;
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	border-radius: 30em;
+	padding: 29px 23px 16px 22px;
+	background: #191919;
+	display: inline-block;
+	margin-top: 16px;
+}
+ul#countdown li{
+	display:inline-block;
+	width: 16%;
+}
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 1.2em;
+	191919
+}
+.content-grid h3{
+	display: block;
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 7px;
+}
+/*----start-copy-right---*/
+.copy-right{
+	text-align:center;
+}
+.copy-right p{
+	display: block;
+	color: #FFF;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 7px;
+	font-family: 'Open Sans', sans-serif;
+}
+.copy-right p a{
+	color:#FFF;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.copy-right p a:hover{
+	color:#000;
+}
