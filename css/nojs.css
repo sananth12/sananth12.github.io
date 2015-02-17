@@ -1,0 +1,11 @@
+.no-js .nav { display: none; }
+.no-js #navicon { display: none; }
+.no-js #loading { display: none; }
+
+.no-cssanimations *:not(#introduction) { visibility: visible !important; }
+
+.no-rgba .small-nav { background: black; }
+
+.no-cssgradients #header { background-color: #6C64E7; }
+
+.ie6 .navigation, .ie7 .navigation, .ie8 .navigation, .no-csstransforms .navigation { display: none !important; }

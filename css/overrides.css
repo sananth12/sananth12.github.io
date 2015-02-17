@@ -1,0 +1,26 @@
+.icon-bar { background-color: white; }
+
+.navbar-collapse { box-shadow: none; }
+
+@media only screen and (max-width: 930px) { #interests .row .column { border-left: none; } }
+@media only screen and (max-width: 750px) { .brand h1 { letter-spacing: 8px; }
+  #top .chevron .down { font-size: 12px; }
+  .small-nav { display: block; }
+  .navigation { display: none; }
+  #about *, #interests *, #work *, #contact *, #quote * { visibility: visible !important; -webkit-animation: none !important; -webkit-animation-name: none !important; -moz-animation: none !important; -o-animation: none !important; -ms-animation: none !important; animation: none !important; }
+  #about img { width: 200px; }
+  .post p { font-size: 14px; color: black; } }
+@media only screen and (max-width: 630px) { .brand h2 { margin-top: 15px; }
+  #footer ul li { margin: 0 15px; padding: 0 15px; }
+  #footer ul li a i { font-size: 2.3em; }
+  #about { padding: 60px 0 80px; }
+  #interests { padding-bottom: 20px; }
+  #contact { padding: 40px 0 120px; } }
+@media only screen and (max-width: 480px) { .brand h2 { margin-top: 10px; }
+  #header .navigation ul li { font-size: 12px; }
+  #introduction .chevron .down { font-size: 1em; }
+  #about br { display: none; }
+  #footer .license { font-size: 9px; } }
+@media only screen and (max-width: 380px) { .brand h1 { font-size: 1.4em; }
+  .brand h2 { font-size: 0.7em; }
+  #work h3 { font-size: 1.4em; } }
