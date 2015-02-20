@@ -255,4 +255,6 @@ pre { font-size: 18px; padding: 1.5em 1em; border-radius: 0; border: none; borde
 
 .sink:hover, .sink:focus, .sink:active { -webkit-transform: translateY(5px); transform: translateY(5px); }
 
-.padded { padding-left:225px; padding-right:225px; padding-top:25px;}
+.padded { padding-left:15%; padding-right:15%; padding-top:1%;}
+
+a { text-decoration-line: none;}
