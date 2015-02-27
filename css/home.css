@@ -789,7 +789,7 @@
 #contact a.contact:hover { color: lightgray; background: gray; border: 1px solid gray; }
 #contact .paperplane { color: #a6a6a6; font-size: 5em; }
 
-#quote { color: whitesmoke; text-align: center; padding: 130px 0 150px; background: url(/images/foggy.jpg) no-repeat center center; background: url("/images/foggy.jpg") no-repeat center center scroll; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/foggy.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/foggy.jpg', sizingMethod='scale')"; }
+#quote { color: whitesmoke; text-align: center; padding: 130px 0 150px; background: url(/images/foggy.jpg) no-repeat center center; background: url("/images/mtn.jpg") no-repeat center center scroll; position: relative; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/foggy.jpg', sizingMethod='scale'); -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/foggy.jpg', sizingMethod='scale')"; }
 #quote .icon { font-size: 4em; }
 #quote .container { margin-top: 15px; text-transform: uppercase; font-size: 2em; font-weight: 300; letter-spacing: 4px; max-width: 25em; }
 #quote .author { font-family: Georgia, sans-serif; font-size: 1.2em; margin-top: 20px; font-weight: 400; letter-spacing: 2px; padding-top: 20px; border-top: 1px solid #b3b3b3; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; filter: alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; opacity: 0.5; }
@@ -801,8 +801,8 @@
 #footer ul li a { color: lightgray; }
 #footer ul li a i { font-size: 3em; }
 #footer ul li a p { position: absolute; font-weight: 400; letter-spacing: 1px; display: none; left: 0; right: 0; margin: auto; margin-top: 10px; color: inherit; }
-#footer ul .email:hover a { color: red; }
-#footer ul .github:hover a { color: #000000; }
+#footer ul .email:hover a { color: #27ae60; }
+#footer ul .github:hover a { color: #4183c4; }
 #footer ul .twitter:hover a { color: #32CCFE; }
 #footer ul .codepen:hover a { color: black; }
 #footer .dash { background-color: #cccccc; }
