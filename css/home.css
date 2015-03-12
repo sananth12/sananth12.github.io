@@ -801,8 +801,8 @@
 #footer ul li a { color: lightgray; }
 #footer ul li a i { font-size: 3em; }
 #footer ul li a p { position: absolute; font-weight: 400; letter-spacing: 1px; display: none; left: 0; right: 0; margin: auto; margin-top: 10px; color: inherit; }
-#footer ul .email:hover a { color: #27ae60; }
-#footer ul .github:hover a { color: #4183c4; }
+#footer ul .email:hover a { color: red; }
+#footer ul .github:hover a { color: black; }
 #footer ul .twitter:hover a { color: #32CCFE; }
 #footer ul .codepen:hover a { color: black; }
 #footer .dash { background-color: #cccccc; }
