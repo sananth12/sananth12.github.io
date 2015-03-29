@@ -37,12 +37,34 @@
 	</section>
 
 	<section id="posts">
-<h1>Archives for Ananth's Blog</h1>
+	<header>
+		<h1>Anantha Natarajan's blog</h1>
+		<h3>
+			<script type="text/javascript">
+				var currentDate = new Date();
+				var day = currentDate.getDate();
+				var monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sep", "Oct", "Nov", "Dec" ];
+				var month = monthNames[currentDate.getMonth()].toUpperCase();
+				var year = currentDate.getFullYear();
+				document.write(month + " " + day + ", " + year);
+			</script>
+		</h3>
+	</header>
 
-<dl>
-    <dt>Sat 28 March 2015</dt>
-    <dd><a href="/my-first-blog.html">My First Blog</a></dd>
-</dl>
+	<dl>
+		<ol>
+				<li>
+					<h1 class="title">
+						<a href="/pelican.html" rel="bookmark" title="Permalink to Pelican">Pelican</a>
+					</h1>
+					<abbr class="published" title="2015-03-29T10:20:00+02:00">Sun 29 March 2015</abbr>
+				<div class="entry-content"> <p>Using Pelican to create static site for blog. Have to use travis to automate build for every commit!</p> </div>
+				</li>
+		</ol>
+	</dl>
+
+<p class="paginator">
+</p>
 	</section>
 
 </body>
