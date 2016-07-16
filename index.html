@@ -27,11 +27,57 @@
     <script src="./js/pushy.min.js"></script>
     <script src="./js/modernizr.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/particles.min.js"></script>
+                <script src="./js/particles.js"></script>
 
-</head>
+</head><style>
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
 
+.logos1 {
+  max-width:20%;
+  max-height:95px;
+  width: auto;
+  height: auto;
+  padding-right: 5%;
+}
+
+.logos2 {
+  max-width:23%;
+  max-height:75px;
+  width: auto;
+  height: auto;
+    padding-right: 5%;
+}
+.logos3{
+  max-width:20%;
+  max-height:50px;
+  width: auto;
+  height: auto;
+    padding-right: 5%;
+}
+.logos4 {
+  max-width:20%;
+  width: auto;
+  height: auto;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+    </style>
     <body class="">
+    <div id="particles-js"></div>
       <section class="navigation">
   <a id="navicon" class="animated fadeInLeft closed menu-btn"></a>
 
@@ -75,7 +121,7 @@
         <a href="#"><i class="fa fa-book"></i>Blog</a>
       </li>
       <li>
-        <a href="https://drive.google.com/file/d/0B1qIEsm4r_9abVE5VTI5cG5fbzA/view?usp=sharing"><i class="fa fa-file"></i>Resume</a>
+        <a href="./resume/Ananth_Resume_July_2016.pdf"><i class="fa fa-file"></i>Resume</a>
       </li>
     </ul>
   </div>
@@ -110,6 +156,7 @@
   </div>
 
   <div class="brand">
+
     <h1 class="animated fadeInUp">Hello, I'm Ananth</h1>
     <h2 class="animated fadeInUp">I <span class="pulse">&hearts;</span> to code.</h2>
   </div>
@@ -130,30 +177,34 @@
       <div class="dash animated fadeIn" ></div>
 
       <p class="concealed visible animated fadeInUp" >
-                    <p>My name is Ananth.</p>
+                    <p>My name is Ananth. <a><i class="fa fa-volume-up" onclick="playaudio()" aria-hidden="true"></i></a> <br>Or more formally Anantha Natarajan S.</p>
         <p class="padded">I'm a senior at the <a href="http://www.nitt.edu/" target="_blank"> National Institute of Technology - Trichy</a>  pursuing B.Tech in <a href="http://www.nitt.edu/home/academics/departments/meta" target="_blank"> Metallurgical & Materials Engineering</a>, but I spend most of my time coding.</p>
-        <p class="padded">I'm a core member at <a href="http://delta.nitt.edu" target="_blank">Delta Force</a> the central webteam of NIT-T.</p>
+        
          <p class="padded">I participate in programming contests at <a href="http://www.codechef.com/users/sananth12" target="_blank">Codechef</a> and <a href="http://www.codeforces.com/profile/sananth12" target="_blank">Codeforces</a>
            , make small projects and open source contributions at <a href="http://www.github.com/sananth12" target="_blank">Github</a>, and hack on random stuff.
 	   I believe programs can have deep beauty and elegance, just like poems.
 </font>
             </p>
-            <p class="padded">
-            	I interned at <font color="blue">G</font><font color="red">o</font><font color="yellow">o</font><font color="blue">g</font><font color="green">l</font><font color="red">e</font> Orange County, California last summer.
-            </p>
-            <p class="padded">
-              I'm currently a Machine Learning intern at Microsoft <i class="fa fa-windows"></i>.
-            </p>
       </p>
 
-      <div class="dash animated fadeIn"></div>
-             <p>
-            	I've worked with <font color="red"><span class="element"></span></font>
-            </p>
+
       <!--p class="concealed visible animated fadeInUp">
       </p-->
-    </div>
-  </div>
+      <br><br>
+       <div class="dash animated fadeIn"></div>
+       <h5>Places I've worked/interned at:</h5>
+       <p>
+           <img class="logos1" src="./images/Nitt.png">  
+          
+           <img class="logos2" src="./images/Microsoft.svg">
+          
+           <img class="logos3" src="./images/Google.svg">
+          
+           <img class="logos4" src="./images/Stanford.svg">
+
+       </p>
+
+    
 </section>
 
       <section id="interests">
@@ -171,13 +222,16 @@
 
         <div class="dash"></div>
                         <p class="light">
-                          <p> Programming Languages: C++, C, Java</p>
+                          <p> Programming Languages: C++, C, Java, C#</p>
                            <p>Scripting Languages: Python, PHP</p>
                            <p>Web Technologies: Javascript, Dart, Git, SQL, Node, CSS, HTML</p>
                           <div >
                               <p>Lines of code last year : 
                               <span class="dark" id="seconds" style="font-size:12px"> 00 </span>
                              </p> 
+                                          <p>
+                I've worked with <font color="red"><span class="element"></span></font>
+            </p>
           </div>
 
         <div class="dash"></div>
@@ -213,7 +267,7 @@
         <div class="dash"></div>
 
         <p>
-          Besides coding, working out, watching TV shows/football and spending time in college I do my utmost best to change the world.
+          Besides coding, working out, watching TV and playing DoTA I do my utmost best to change the world.
         </p>
 
         <div class="dash"></div>
@@ -266,6 +320,7 @@
         <div class="bar concealed visible animated fadeInRight">Java</div>
         <div class="bar concealed visible animated fadeInRight">Python</div>
         <div class="bar concealed visible animated fadeInRight">PHP</div>
+        <div class="bar concealed visible animated fadeInRight">C#</div>
         <div class="bar concealed visible animated fadeInRight">Javascript + Node</div>  
         <div class="bar concealed visible animated fadeInRight">Dart</div>
         <div class="bar concealed visible animated fadeInRight">SQL</div>
@@ -289,6 +344,18 @@
     <a class="contact" href="mailto:sananthanatarajan12@gmail.com">
       Say Hi!<i class="flaticon-speech39"></i>
     </a>
+  </div>
+  <br><br>
+       <div class="dash animated fadeIn"></div>
+       <br><br>
+     <div>
+          
+          <h1>Here's my resumé</h1>
+          <p>
+          <a class="contact" href="./resume/Ananth_Resume_July_2016.pdf">
+            Resumé<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+      </p>
   </div>
 </section>
 
@@ -338,6 +405,7 @@
         <br/>
       Made with HTML,CSS, Bootstrap, Font Awesome and lots of &hearts;
     </div>
+    
 
   </div>
 </section>
@@ -393,6 +461,129 @@
       ga('send', 'pageview');
 
       </script>
+<script type="text/javascript">
+    function playaudio(){
+        var snd = new Audio("./name.mp3"); 
+        snd.currentTime=0;
+        snd.play();
+    }
+</script>
+     
+<script type="text/javascript">
+  /* ---- particles.js config ---- */
+
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
 </body>
 
 </html>
