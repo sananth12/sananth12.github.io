@@ -1,4 +1,4 @@
-let distances = [1.0];
+let distances = [1.0, 2.0];
 
 let books = 1.0;
 
