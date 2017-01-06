@@ -300,6 +300,32 @@ canvas {
         <div class="dash"></div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="concealed visible animated fadeInUp">
+        <div class="flaticon">
+          <i class="flaticon-book82"></i>
+        </div>
+
+        <h3>Writing</h3>
+
+        <div class="dash"></div>
+                        <p class="light">
+                          <p>I write about interviews, life and tech stuff at my <a href="http://blog.ananth.co.in">blog</a>. Here some some of my latest posts:</p>
+                          <div >
+             <p>
+               <a href="https://blog.ananth.co.in/2016-year-in-review-and-look-ahead-b2a49a50d4e8#.8nwfio2no">2016: Year in review and look ahead</a>
+               <br>
+               <a href="https://blog.ananth.co.in/the-google-interview-d3badef7b08f#.n0yhrnj1r">The Google interview</a>
+               <br>
+               <a href="https://medium.com/@sananth12/the-twitter-interview-cc408ddf60b5">The Twitter Interview</a>
+            </p>
+          </div>
+
+        <div class="dash"></div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -437,25 +463,6 @@ canvas {
 
   </div>
 </section>
-   <script type="text/javascript">
-        var secondsLabel = document.getElementById("seconds");
-        var totalSeconds = 0, tmp;
-        function setTime()
-        {
-            if(totalSeconds > 24654)
-                return;
-            totalSeconds+=8;
-            tmp = totalSeconds;
-            secondsLabel.innerHTML = pad(tmp);
-        }
-
-        function pad(val)
-        {
-            var valString = val + "";
-            return valString;
-        }
-        document.getElementById('interests').onmouseover=function(){setInterval(setTime, 1);};
-    </script>
     <script>
 	  $(function(){
 	      $(".element").typed({
