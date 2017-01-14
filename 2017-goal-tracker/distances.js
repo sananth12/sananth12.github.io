@@ -1,6 +1,6 @@
-let distances = [1.0, 2.0];
+let distances = [1.0, 2.0, 2.5];
 
-let books = 1.0;
+let books = 2.0;
 
 let total = 0;
 
